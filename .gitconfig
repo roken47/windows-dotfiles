@@ -1,0 +1,6 @@
+[user]
+	name = Roken47
+	email = mradeboer7@gmail.com
+[safe]
+	directory = C:/Users/mrade/.dotfiles
+	directory = C:/Users/mrade/.local/share/chezmoi
