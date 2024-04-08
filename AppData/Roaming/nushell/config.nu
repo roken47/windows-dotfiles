@@ -840,5 +840,5 @@ $env.config = {
     ]
 }
 
-source ~/.dotfiles/config/shells/nushell/zoxide.nu
-source ~/.dotfiles/config/shells/nushell/starship.win.nu
+source ~/AppData/Roaming/nushell/zoxide.nu
+source ~/AppData/Roaming/nushell/starship.nu

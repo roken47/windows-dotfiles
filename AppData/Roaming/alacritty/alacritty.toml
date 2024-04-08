@@ -22,15 +22,16 @@
 # THEMES library: https://github.com/alacritty/alacritty-theme
 
 import = [
-    "~/.dotfiles/.alacritty/themes/tomorrow-night-bright.toml",
+    "%APPDATA%/alacritty/themes/tomorrow-night-bright.toml",
     #"~/.dotfiles/.alacritty/themes/iterm",
 ]
 
 live_config_reload = true # Live config reload (Some changes require restart)
+working_directory = "C:\\Users\\mrade"
 
 # SHELL
 [shell]
-program = "C:\Program Files\nu\bin\nu.exe"
+program = "C:\\Program Files\\nu\\bin\\nu.exe"
 args = ["-l"]
 
 # ENV
@@ -47,10 +48,10 @@ TERM = "xterm-256color"
 [window]
 startup_mode = "Windowed"          # "Windowed" | "Maximized" | "Fullscreen" | "SimpleFullscreen" (macOS only)
 title = "Terminal"                 # Window title
-dynamic_title = true               # changes window title if an application is in use
+dynamic_title = false               # changes window title if an application is in use
 decorations_theme_variant = "None" # "Dark" | "Light" | "None" Can override OS's appearance or use 'None' to default to system
-decorations = "None"               # "Full" | "None" | "Transparent" | "Buttonless" - last two are macOS only
-opacity = 0.5                      # macOS and KDE Wayland only - 0.0 to 1.0, fully transparent to opaque
+decorations = "Full"               # "Full" | "None" | "Transparent" | "Buttonless" - last two are macOS only
+opacity = 0.85                      # macOS and KDE Wayland only - 0.0 to 1.0, fully transparent to opaque
 blur = true                        # macOS and KDE Wayland only
 dynamic_padding = true             # Spread additional padding evenly around the terminal content.
 option_as_alt = "None"             # "OnlyLeft" | "OnlyRight" | "Both" | "None" # (macos only)
