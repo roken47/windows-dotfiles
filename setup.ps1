@@ -65,3 +65,11 @@ scoop install nvcleaninstall
 # internet file management tools
 choco install pia
 scoop install winscp # FTP, SFTP client
+
+# Install tiling window manager
+# Enable long path support
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+
+winget install LGUG2Z.komorebi
+winget install LGUG2Z.whkd
+
